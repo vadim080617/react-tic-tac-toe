@@ -15,7 +15,7 @@ class Board extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="board">
         {
           ['3', 'element', 'array'].map((el, rowIndex) =>
             <div key={rowIndex} className="board-row">
